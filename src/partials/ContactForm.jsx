@@ -67,11 +67,11 @@ export default function ContactUs() {
                 </span>
             }
             <label htmlFor="user_name" className="text-xl text-white">Name</label>
-            <input type="text" name="user_name" id="user_name" value={nameValue} onChange={handleNameChange} className="text-white bg-zinc-800 py-[4px] rounded px-2 text-[16px] md:text-[18px]" />
+            <input type="text" name="user_name" id="user_name" value={nameValue} onChange={handleNameChange} className="text-white bg-zinc-800 py-[4px] rounded px-2 text-[16px] md:text-[18px]" required />
             <label htmlFor="user_email" className="text-xl text-white">Email</label>
-            <input type="email" name="user_email" id="user_email" value={emailValue} onChange={handleEmailChange} className="text-white bg-zinc-800 py-[4px] rounded px-2 text-[16px] md:text-[18px]" />
+            <input type="email" name="user_email" id="user_email" value={emailValue} onChange={handleEmailChange} className="text-white bg-zinc-800 py-[4px] rounded px-2 text-[16px] md:text-[18px]" required />
             <label htmlFor="message" className="text-xl text-white">Message</label>
-            <textarea name="message" id="message" value={messageValue} onChange={handleMessageChange} className="bg-zinc-800 rounded resize-none text-white px-5 py-1 h-[200px] text-[16px]" placeholder='Message here...' />
+            <textarea name="message" id="message" value={messageValue} onChange={handleMessageChange} className="bg-zinc-800 rounded resize-none text-white px-5 py-1 h-[200px] text-[16px]" required />
             <input type="submit" value="Send" className="bg-zinc-900 p-2 rounded text-base md:text-xl font-semibold text-white md:hover:opacity-50 cursor-pointer" />
         </form>
     );
