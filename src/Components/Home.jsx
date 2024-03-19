@@ -24,7 +24,7 @@ export default function Main({color}){
     
     return(
         <main className="w-[100%] px-5 md:px-0 md:w-[90%] lg:w-[55%] lg:min-w-[800px] mx-auto text-slate-400 font-tektur opacity-load-third select-none flex flex-col items-start" ref={comp}>
-            <h1 className=" pt-[100px] md:pt-[15%] text-4xl md:text-5xl lg:text-6xl pb-2 border-b border-color" style={{borderColor: `rgb(${color.red},${color.green},${color.blue})`, transition: 'border-color 0.5s ease-in-out'}} >
+            <h1 className=" pt-[80px] md:pt-[15%] text-4xl md:text-5xl lg:text-6xl pb-2 border-b border-color" style={{borderColor: `rgb(${color.red},${color.green},${color.blue})`, transition: 'border-color 0.5s ease-in-out'}} >
                 <Typewriter
                     onInit={(typewriter) => {
                         typewriter.typeString('Welcome !')
@@ -33,7 +33,7 @@ export default function Main({color}){
                     }}
                 />
             </h1>
-            <p className="w-full mt-20 mb-5 pl-5 pb-5 text-base md:text-xl opacity-load-p  border-l border-b border-slate-700 rounded tracking-wider md:leading-10"
+            <p className="w-full mt-16 mb-5 pl-5 pb-5 text-base md:text-xl opacity-load-p  border-l border-b border-slate-700 rounded tracking-wider md:leading-10"
             style={{borderColor: `rgb(${color.red},${color.green},${color.blue})`, transition: 'border-color 0.5s ease-in-out'}} >
                 I'm 
                 <span style={{color: `rgb(${color.red},${color.green},${color.blue})`, transition: 'color 0.5s ease-in-out'}}>
