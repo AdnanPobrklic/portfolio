@@ -24,7 +24,7 @@ export default function Main({color}){
     
     return(
         <main className="w-[100%] px-5 md:px-0 md:w-[90%] lg:w-[55%] lg:min-w-[800px] mx-auto text-slate-400 font-tektur opacity-load-third select-none flex flex-col items-start" ref={comp}>
-            <h1 className=" pt-[80px] md:pt-[15%] text-4xl md:text-5xl lg:text-6xl pb-2 border-b border-color" style={{borderColor: `rgb(${color.red},${color.green},${color.blue})`, transition: 'border-color 0.5s ease-in-out'}} >
+            <h1 className=" pt-[50px] md:pt-[15%] text-4xl md:text-5xl lg:text-6xl pb-2 border-b border-color" style={{borderColor: `rgb(${color.red},${color.green},${color.blue})`, transition: 'border-color 0.5s ease-in-out'}} >
                 <Typewriter
                     onInit={(typewriter) => {
                         typewriter.typeString('Welcome !')
