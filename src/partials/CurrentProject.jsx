@@ -21,7 +21,7 @@ export default function CurrentProject({color, data}){
     }, [data.title]);
     
     return(
-        <div ref={comp} className="flex gap-5 flex-col items-start w-[95%] lg:w-[50%] lg:ml-auto lg:mt-[100px] lg:mr-[100px] ">
+        <div ref={comp} className="flex gap-5 flex-col items-start w-[90%] lg:w-[50%] lg:ml-auto lg:mt-[100px] lg:mr-[100px] ">
             <h1 className="text-slate-300 border-b inline-block text-3xl md:text-4xl font-semibold opacity-load-project-preview rounded pb-2"
                 style={{
                     borderColor: `rgb(${color.red},${color.green},${color.blue})`,
