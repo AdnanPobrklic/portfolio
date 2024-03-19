@@ -91,7 +91,7 @@ export default function Projects({ color }) {
     };
 
     return (
-        <main className={`text-slate-400 font-tektur opacity-load-third select-none flex flex-col items-center gap-10 lg:gap-0 lg:flex-row pt-[100px]`} ref={comp}>
+        <main className={`text-slate-400 font-tektur opacity-load-third select-none flex flex-col items-center gap-5 lg:gap-0 lg:flex-row pt-[100px]`} ref={comp}>
             <ProjectsList ref={menuRef} color={color} className={`flex flex-col lg:absolute  lg:top-[20%] lg:left-[50%] lg:translate-x-[-50%] ${currentProject === -1 ? "md:gap-10" : "md:gap-8"} gap-7 items-start opacity-load-list`}>
                 {Array.from({ length: 4 }, (_, i) => (
                     <li className={`z-20 ${currentProject === -1 ? "md:text-xl" : "md:text-[17px]"} ${i == 0 ? "mt-5" : ""} text-[15px] uppercase border-b md:hover:scale-110 cursor-pointer ml-5`}
