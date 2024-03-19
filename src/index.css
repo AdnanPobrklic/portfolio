@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+body{
+    background-color: #09090b;
+}
+
+.projects-list::before {
+    content: " ";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
