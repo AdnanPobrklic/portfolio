@@ -56,7 +56,7 @@ export default function Projects({ color }) {
                     desc: "Project Management System is a robust application I developed for managing projects, tracking work hours, and monitoring user attendance. It supports role-based access, real-time updates, and communication, along with features for task management, notification system, and report generation. This project highlights my skills in creating complex, real-time, role-based systems.",
                     youtube: "https://www.youtube.com/watch?v=r7zLRfbbAx4&t",
                     viewSite: "https://evidencija-projekata.onrender.com",
-                    repo: "https://github.com/AdnanPobrklic/project-management",
+                    repo: "https://github.com/AdnanPobrklic/project-managment",
                     stack: ["react", "node", "mongodb"]
                 }
             case 1:
