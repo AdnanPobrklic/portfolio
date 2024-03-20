@@ -56,7 +56,7 @@ export default function Projects({ color }) {
                     desc: "Project Management System is a robust application I developed for managing projects, tracking work hours, and monitoring user attendance. It supports role-based access, real-time updates, and communication, along with features for task management, notification system, and report generation. This project highlights my skills in creating complex, real-time, role-based systems.",
                     youtube: "https://www.youtube.com/watch?v=r7zLRfbbAx4&t",
                     viewSite: "https://evidencija-projekata.onrender.com",
-                    repo: "https://github.com/AdnanPobrklic/project-managmet",
+                    repo: "https://github.com/AdnanPobrklic/project-management",
                     stack: ["react", "node", "mongodb"]
                 }
             case 1:
@@ -64,7 +64,7 @@ export default function Projects({ color }) {
                     title: "Multiplayer Tic-tac-toe",
                     desc: "is a game I developed with the intention of showcasing my expertise in bit more challenging areas of backend development, specifically sockets. The game features a a multiplayer mode. In the multiplayer mode, a link is generated which allows a second player to join the game.And asingle-player mode, where moves are randomly selected.",
                     viewSite: "https://tic-tac-toe-jvaa.onrender.com",
-                    repo: "https://github.com/AdnanPobrklic/mutliplayer-tic-tac-toe",
+                    repo: "https://github.com/AdnanPobrklic/multiplayer-tic-tac-toe",
                     stack: ["react", "node"]
                 }
             case 2:
