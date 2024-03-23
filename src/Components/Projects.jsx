@@ -52,8 +52,8 @@ export default function Projects({ color }) {
         switch (index) {
             case 0:
                 return {
-                    title: "Project management system",
-                    desc: "Project Management System is a robust application I developed for managing projects, tracking work hours, and monitoring user attendance. It supports role-based access, real-time updates, and communication, along with features for task management, notification system, and report generation. This project highlights my skills in creating complex, real-time, role-based systems.",
+                    title: "Project Management System",
+                    desc: "The Project Management System is a comprehensive application I developed for managing projects, tracking work hours, and monitoring user attendance. It supports role-based access, real-time updates, and communication, along with features for task management, notification system, and report generation. This project underscores my skills in creating complex, real-time, role-based systems.",
                     youtube: "https://www.youtube.com/watch?v=r7zLRfbbAx4&t",
                     viewSite: "https://evidencija-projekata.onrender.com",
                     repo: "https://github.com/AdnanPobrklic/project-managment",
@@ -62,23 +62,23 @@ export default function Projects({ color }) {
             case 1:
                 return {
                     title: "Multiplayer Tic-tac-toe",
-                    desc: "is a game I developed with the intention of showcasing my expertise in bit more challenging areas of backend development, specifically sockets. The game features a a multiplayer mode. In the multiplayer mode, a link is generated which allows a second player to join the game.And asingle-player mode, where moves are randomly selected.",
+                    desc: "This is a game I developed to demonstrate my expertise in more challenging areas of backend development, specifically sockets. The game features a multiplayer mode where a link is generated allowing a second player to join the game. It also includes a single-player mode, where moves are randomly selected.",
                     viewSite: "https://tic-tac-toe-jvaa.onrender.com",
                     repo: "https://github.com/AdnanPobrklic/multiplayer-tic-tac-toe",
                     stack: ["react", "node"]
                 }
             case 2:
                 return {
-                    title: "Weather forecast app",
-                    desc: "is an application designed to showcase my skills in effectively fetching and retrieving data, as well as displaying it on the frontend. This application utilizes the weahterapi to fetch latest weather data, providing users with accurate and up-to-date information.",
+                    title: "Weather Forecast App",
+                    desc: "This is an application designed to showcase my skills in effectively fetching and retrieving data, as well as displaying it on the frontend. This application utilizes the WeatherAPI to fetch the latest weather data, providing users with accurate and up-to-date information.",
                     viewSite: "https://weather-forecast-adnanp.netlify.app",
                     repo: "https://github.com/AdnanPobrklic/weather-forecast",
                     stack: ["react"]
                 };
             case 3:
                 return {
-                    title: "Friends & Chat social media",
-                    desc: "is a basic social networking platform I developed, which could also be described as a community interaction hub. It allows users to create and update their profiles, add friends, and engage in real-time conversations with them. The platform boasts features such as real-time updates, online status indicators, read receipts, and friend management functionalities. This project highlights my ability to create interactive and user-friendly environments, handle real-time data, and manage user relationships.",
+                    title: "Friends & Chat Social Media",
+                    desc: "This is a basic social networking platform I developed, which can also be described as a community interaction hub. It allows users to create and update their profiles, add friends, and engage in real-time conversations with them. The platform boasts features such as real-time updates, online status indicators, read receipts, and friend management functionalities. This project highlights my ability to create interactive and user-friendly environments, handle real-time data, and manage user relationships.",
                     viewSite: "https://friends-chat-a8iu.onrender.com",
                     repo: "https://github.com/AdnanPobrklic/friends-chat",
                     stack: ["react", "node", "mongodb"]
@@ -89,6 +89,7 @@ export default function Projects({ color }) {
                 };
         }
     };
+
 
     return (
         <main className={`text-slate-400 font-tektur opacity-load-third select-none flex flex-col items-center gap-5 lg:gap-0 lg:flex-row pt-[100px]`} ref={comp}>
